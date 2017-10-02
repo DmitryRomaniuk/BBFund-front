@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "PFSbold";
+    src: url(../fonts/pfsquaresanspro-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "PFSsemiBold";
+    src: url(../fonts/pfsquaresanspro-medium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "PFSregular";
+    src: url(../fonts/pfsquaresanspro-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "PFSExtraBlack";
+    src: url(../fonts/pfsquaresanspro-xblack-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "ProximaLight";
+    src: url(../fonts/ProximaNovaExCn-LightWeb.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "ProximaRegular";
+    src: url(../fonts/ProximaNovaExCn-RegWeb.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "ProximaSbold";
+    src: url(../fonts/ProximaNovaExCn-SboldWeb.woff) format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+.navbar-brand::before {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    content: ' ';
+    background-size: 158px 197px;
+    height: 197px;
+    width: 158px;
+    background-image: url("../img/logo.png")
+}
+
+.brand-text {
+    color: #e10025;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container, .container-fluid, .row, .col-1,
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    margin: 0;
+    padding: 0;
+}
+.arrow_box {
+    position: relative;
+    background: #005866;
+    border: 3px solid #12b9c3;
+    padding: 25px 60px;
+    color: white;
+}
+.arrow_box:after, .arrow_box:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #005866;
+    border-width: 43px;
+    margin-top: -43px;
+}
+.arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #12b9c3;
+    border-width: 46px;
+    margin-top: -46px;
+    margin-left: 3px;
+}
+.first_arrow_box {
+    z-index: 2;
+    background: #146675;
+}
+.first_arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #146675;
+    border-width: 43px;
+    margin-top: -43px;
+}
